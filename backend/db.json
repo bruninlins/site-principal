@@ -1,0 +1,53 @@
+{
+  "Front-end":[
+    {
+      "nome": "Fokus",
+      "sobre": "Projeto desenvolvido para aumentar a produtividade e foco, utilizando o método Pomodoro. A aplicação oferece um timer configurável para ciclos de foco e descanso, além de permitir o gerenciamento de tarefas. A interface é interativa, com a possibilidade de adicionar e gerenciar tarefas, além de tocar música ambiente para melhorar o foco.",
+      "imagem": "",
+      "link": "",
+      "github": ""
+    },
+    {
+      "nome": "Code Connect",
+      "sobre": "Uma plataforma interativa onde você pode publicar seus projetos, adicionar descrições e tags para compartilhar com outros desenvolvedores!",
+      "imagem": "",
+      "link": "",
+      "github": ""
+    },
+    {
+      "nome": "AluraBooks",
+      "sobre": "Este projeto é uma aplicação web feita com HTML, CSS e JavaScript, que exibe uma lista de livros de forma dinâmica. O usuário pode filtrar por categoria, ver apenas os disponíveis, ordenar por preço e visualizar o valor total. Tudo é feito com JavaScript puro, focando no aprendizado de manipulação de dados e interatividade no front-end.",
+      "imagem": "",
+      "link": "",
+      "github": ""
+    },
+    {
+      "nome": "Jogo do número secreto",
+      "sobre": "O Jogo do Número Secreto é uma aplicação web interativa desenvolvida com HTML, CSS e JavaScript. O objetivo do jogo é adivinhar um número gerado aleatoriamente pelo sistema, com base nos palpites do usuário. A cada tentativa, o jogo informa se o número secreto é maior ou menor que o palpite, até que o jogador acerte. Além disso, o jogo conta com mensagens dinâmicas para orientar o jogador e possui um design responsivo, garantindo uma boa experiência em diferentes dispositivos.",
+      "imagem": "",
+      "link": "",
+      "github": ""
+    },
+    {
+      "nome": "FileImporter",
+      "sobre": "Este projeto tem como objetivo facilitar a importação de dados de arquivos CSV para um banco de dados MySQL. O script, desenvolvido em Python, realiza a conexão com o banco, verifica se a tabela de destino já existe e, caso contrário, a cria automaticamente com base nos nomes de colunas presentes no cabeçalho do arquivo. Em seguida, os dados são inseridos linha por linha na tabela recém-criada. É uma ferramenta útil para automatizar processos de carga de dados (ETL) em sistemas que recebem arquivos CSV com frequência.",
+      "imagem": "",
+      "link": "",
+      "github": ""
+    },
+    {
+      "nome": "Web Scraper Transformer",
+      "sobre": "Este projeto realiza o processo completo de coleta e transformação de dados públicos fornecidos pela ANS (Agência Nacional de Saúde Suplementar). Utilizando técnicas de web scraping, o script baixa arquivos PDF diretamente do site da ANS, extrai tabelas usando a biblioteca Tabula, transforma os dados em arquivos CSV e, ao final, gera um arquivo ZIP com todo o conteúdo processado. O objetivo principal é facilitar a obtenção e a organização desses dados para uso posterior em análises ou integrações com outras aplicações.",
+      "imagem": "",
+      "link": "",
+      "github": ""
+    },
+    {
+      "nome": "Verificação de API",
+      "sobre": "Esse é um projeto que envolve uma API criada com Flask, conectada a um banco de dados MySQL para manipulação de dados de cadastros de operadoras. Para rodá-lo, é necessário configurar o banco de dados, importar um arquivo CSV e configurar tanto o backend em Flask quanto o frontend em Vue.js. O projeto pode ser testado usando o Postman, fazendo requisições para os endpoints da API. É uma aplicação que exige configuração de ambiente e integração entre frontend e backend para funcionar corretamente.",
+      "imagem": "",
+      "link": "",
+      "github": ""
+    }
+  ]
+}

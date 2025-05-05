@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'StarJedi';
+  src: url('../fonts/star_jedi/starjedi/Starjedi.ttf') format('truetype');
+}
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* Impede a rolagem da página */
+}
+
+.cabeca {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 10px;
+}
+
+
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.cabeca-menu{
+  padding: 1em;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.lista-menu{
+  margin-top: -10px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 68%;
+}
+
+.li-item{
+  margin: 10px 0;
+}
+
+.menu-button:checked ~ .lista-menu{
+  display: block;
+}
+
+
+.menu-button{
+  display: none
+}
+
+
+
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Garantir que o canvas fique atrás do texto */
+}
+
+.conteudo {
+  z-index: 1; /* Texto ficará acima do canvas */
+  text-align: center;
+}
+
+.text-inicial {
+  font-size: 120px;
+  text-shadow: 0 0 10px transparent;
+  background-color: transparent; /* Fundo transparente */
+  color: transparent; /* Cor do texto transparente */
+  -webkit-text-stroke: 2px yellow; /* Borda amarela ao redor das letras */
+  font-family: 'StarJedi', sans-serif;
+  position: relative; /* Garante que o texto seja posicionado acima */
+}
+
+.paragrafo-inicial {
+  font-size: 30px;
+  text-shadow: 0 0 10px white;
+  margin-top: -10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+  .text-inicial {
+    font-size: 123px;
+  }
+
+  .paragrafo-inicial {
+    font-size: 52px;
+  }
+
+  .cabeca-menu{
+    font-size: 45px;
+  }
+
+  .li-item{
+    font-size: 25px;
+  }
+  
+}
